@@ -15,14 +15,15 @@ Let users select one or more options by using the checkboxes component.
 
 ## When to use this component
 
-Use the checkboxes component when you need to help users:
-
-- select multiple options from a list
-- toggle a single option on or off
+Use the checkboxes component when you need to help users select multiple options from a list.
 
 ## When not to use this component
 
-Do not use the checkboxes component if users can only choose one option from a selection. In this case, use the [Radios component](/components/radios/).
+Do not use the checkboxes component to let users choose only one option from a selection. Users think checkboxes are used to select multiple options from a list and could struggle if they are only able to select one checkbox from a selection. In this case, use [Radios components](/components/radios/) instead of checkboxes.
+
+Do not use the checkboxes component to let users toggle a single option on or off. Users could miss a checkbox to toggle a single option on or off and end up not selecting something they might have wanted to select. In this case, use 2 [Radios components](/components/radios/) instead of a single checkbox to make users choose the option they want to select.
+
+There is a risk 
 
 ## How it works
 
